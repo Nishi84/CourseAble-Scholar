@@ -1,0 +1,242 @@
+  body{
+    background-color: #1c2230;
+    color: #FFFFFF;
+  }
+  header{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    width: 100%;
+  }
+  .leftnav a img{
+    width: 200px;
+    height: 40px;
+  }
+  .rightnav {
+    float: right;
+    text-decoration: none;
+  }
+  .rightnav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .rightnav a:hover{
+    color: #008080;
+  }
+  .leftnav,.rightnav{
+    display: inline;
+  }
+  .content1 #content1-img{
+    padding: 60px;
+  }
+  #content1-img,#content1-txt,#content1-txt2,#content1-submit{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.body{
+  background-image: url(bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  padding: 10px 200px 10px 100px;
+
+}
+#content1-submit input[type=submit]{
+  border: 1px solid #4fc4d5;
+  border-radius: 60px;
+  background-color: #4fc4d5;
+  color: #FFFFFF;
+  margin: 18px;
+  padding: 17px 100px 17px 100px;
+  font-size: 20px;
+}
+#content1-submit input[type=submit]:hover{
+  background-color: #008080;
+  color: #FFFFFF;
+  border: 0;
+}
+.content2 {
+  padding: 30px 86px 30px 86px;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+.content2 #content2-text1, #content2-text2, #content2-text3, #content2-text4{
+  padding-top: 0px;
+
+}
+.content2 #content2-img1,#content2-img2,#content2-img3,#content2-img4{
+  padding-bottom: 0px;
+}
+#content3-img1{
+  float: left;
+  padding: 0px 60px 0px 60px;
+}
+#content3-text{
+  display: inline;
+  float: right;
+  height:332px;
+  width:450px;
+  margin-top:18px;
+}
+#content3-text4{
+  color: #4fc4d5;
+}
+
+.container {
+  display: flex;
+  padding: 0px 40px 20px 40px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content4text {
+  width: 22rem;
+  height: 15rem;
+  background-color: #21293c;
+  color: white;
+  border:0px;
+  padding: 20px 18px 10px 18px;
+}
+
+
+.nameimg{
+  margin-top: 20px;
+}
+
+#content4-img3 img,#content4-img2 img,#content4-img1 img{
+  float: left;
+  border-radius: 100px;
+  height: 40px;
+  margin: 28px 0px 0px 0px;
+}
+.name{
+  float: left;
+  padding: 0px 0px 0px 10px;
+}
+.container2 {
+  padding: 40px 70px 0px 190px;
+  position: absolute;
+  z-index: 2;
+}
+
+#container2-text1,#container2-text2{
+  text-align: center;
+  padding: 20px 60px 0px 60px;
+}
+
+.item {
+  width: 60rem;
+  height: 20rem;
+  background-color: #21293c;
+  color: white;
+  border-radius: 8px ;
+  border:
+  padding: 20px 18px 10px 18px;
+}
+
+#container2-submit input[type=submit]{
+  border: 1px solid #4fc4d5;
+  border-radius: 60px;
+  background-color: #4fc4d5;
+  color: #FFFFFF;
+  margin: 18px;
+  padding: 17px 60px 17px 60px;
+  font-size: 20px;
+}
+#container2-submit input[type=submit]:hover{
+  background-color: #008080;
+  color: #FFFFFF;
+  border: 0;
+}
+
+#email{
+  border: 1px solid #FFFFFF;
+  border-radius: 60px;
+  margin: 18px;
+  padding: 17px 170px 17px 170px;
+}
+.email{
+  display: flex;
+}
+footer{
+  margin: 240px 0px 0px 0px;
+  padding: 80px 60px;
+  background-color: #0c1524;
+}
+
+
+.footer {
+  display: flex;
+  padding: 120px 40px 20px 40px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contactimg1{
+  display: flex;
+  padding: 4px 8px 20px 4px;
+}
+.contact1{
+  display: flex;
+  padding: 0px 0px 0px 0px;
+}
+.contactimg2{
+  display: flex;
+  padding: 4px 8px 20px 4px;
+}
+.contact2{
+  display: flex;
+  padding: 0px 0px 0px 0px;
+}
+.location{
+  display: flex;
+  padding: 4px 8px 50px 4px;
+
+
+}
+.footertxt{
+  display: flex;
+  padding: 10px 80px 0px 0px;
+}
+.contact{
+  padding: 40px 80px 0px 0px;
+}
+.contactfooter{
+  padding: 40px 0px 0px 0px;
+}
+ .contactfooter a{
+   padding: 0px 80px 10px 40px;
+   display: block;
+   text-decoration: none;
+   color: #ffffff;
+ }
+ .social{
+   display: flex;
+   align-items:  flex-start;
+   padding: 40px 0px 0px 0px;
+ }
+
+ .social a i{
+   margin: 0px 10px 0px 0px;
+   display: flex;
+   justify-content: center;
+   align-items:  center;
+   height: 30px;
+   width: 30px;
+   color: white;
+   background-color: ;
+   border: 1px solid white;
+   border-radius: 15px;
+ }
+ .social a i:hover{
+   background-color: white;
+   color: black;
+ }
+
+.attribution { font-size: 11px; text-align: center; margin-bottom: 0px;}
+.attribution a { color: #4fc4d5; text-decoration: none;}
