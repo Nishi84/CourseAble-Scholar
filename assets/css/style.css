@@ -1,4 +1,4 @@
-      body{
+    body{
     background-color: #1c2230;
     color: #FFFFFF;
   }
@@ -53,7 +53,7 @@
 .body{
   background-image: url(bg-curvy-desktop.svg);
   background-repeat: no-repeat;
-  padding: 10px 200px 10px 100px;
+  padding: 10px 100px 10px 100px;
 
 }
 #content1-submit input[type=submit]{
@@ -136,9 +136,13 @@
   z-index: 2;
 }
 
-#container2-text1,#container2-text2{
+#container2-text1{
   text-align: center;
   padding: 20px 60px 0px 60px;
+}
+#container2-text2{
+  text-align: center;
+  padding: 20px 120px 0px 120px;
 }
 
 .item {
@@ -159,7 +163,7 @@
   margin: 18px;
   margin-left: 10px;
   margin-right: 85px;
-  padding: 17px 17px 17px 17px;
+  padding: 10px 17px 10px 17px;
   font-size: 20px;
 }
 #container2-submit input[type=submit]:hover{
@@ -175,7 +179,7 @@
   margin: 18px;
   margin-left: 90px;
   margin-right: 10px;
-  padding: 17px 17px 17px 17px;
+  padding: 10px 17px 10px 17px;
 }
 .email{
   display: flex;
