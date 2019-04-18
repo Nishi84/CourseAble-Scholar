@@ -146,9 +146,11 @@
   background-color: #4fc4d5;
   color: #FFFFFF;
   margin: 18px;
-  padding: 17px 60px 17px 60px;
+  margin-left: 10px;
+  margin-right: 85px;
+  padding: 17px 17px 17px 17px;
   font-size: 20px;
-}
+    
 #container2-submit input[type=submit]:hover{
   background-color: #008080;
   color: #FFFFFF;
@@ -156,10 +158,13 @@
 }
 
 #email{
+  width: 600px;
   border: 1px solid #FFFFFF;
   border-radius: 60px;
   margin: 18px;
-  padding: 17px 170px 17px 170px;
+  margin-left: 90px;
+  margin-right: 10px;
+  padding: 17px 17px 17px 17px;
 }
 .email{
   display: flex;
