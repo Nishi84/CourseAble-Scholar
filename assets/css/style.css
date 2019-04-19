@@ -1,6 +1,14 @@
-    body{
+  body{
     background-color: #1c2230;
     color: #FFFFFF;
+  }
+
+  body{
+    background-image: url(bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center 25%;
+    background-size:  cover;
+
   }
   header{
     padding-top: 40px;
@@ -49,13 +57,6 @@
     padding-right: 300px;
   }
 
-
-.BG{
-  background-image: url(bg-curvy-desktop.svg);
-  background-repeat: no-repeat;
-  padding: 10px 100px 10px 100px;
-
-}
 #content1-submit input[type=submit]{
   border: 1px solid #4fc4d5;
   border-radius: 60px;
